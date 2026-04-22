@@ -1,28 +1,54 @@
 body
 {
     background-color: rgb(90, 121, 161);
+    font-family: "Cinzel", serif;
 }
 
 
 h1
 {
-
+    
 }
 
 p
 {
-
+    
 }
 
 .balenciaga
 {
-    width: 100px;
+    width: 200px;
     height: 100;
 }
 
 .fish
 {
-    width: 100px;
+    width: 200px;
 }
 
 
+.tung
+{
+    width: 200px;
+}
+
+
+
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+  }
+
+
+  .ronaldofish
+  {
+    width: 500px;
+  }
+
+
+  .Cristiano
+  {
+    border-style: solid;
+  }
