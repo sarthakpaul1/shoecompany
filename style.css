@@ -1,12 +1,16 @@
 body
 {
-    background-color: rgb(90, 121, 161);
+    background-color: rgb(107, 114, 124);
     font-family: "Cinzel", serif;
 }
 
 
 h1
 {
+    background-color: rgb(166, 172, 187);
+    text-align: center;
+    margin: -8px;
+    padding: 18px;
     
 }
 
@@ -19,6 +23,7 @@ p
 {
     width: 200px;
     height: 100;
+    
 }
 
 .fish
@@ -52,3 +57,29 @@ p
   {
     border-style: solid;
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+  ul li a.active {
+    background-color: #04AA6D;
+  }
+
