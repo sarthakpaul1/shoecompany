@@ -21,7 +21,7 @@
         <!-- nav bar -->
 <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="contact.html">About</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
     <li><a href="review.html">Reviews</a></li>
     
   </ul>
@@ -29,15 +29,25 @@
         <p>
            Number: 123-123-4567
         <br>
-            Email:SarthaksShoes@gmail.com
+            Email: SarthaksShoes@gmail.com
         </p>
 
         <br>
         <br>
-        <br>
-        <br>
+
+<form onsubmit="handleSubmit(event)">
+ <label for="name">Name:</label><br>
+ <input type="text" id="name"><br><br>
+
+ <label for="message">Message:</label><br>
+ <textarea id="message"></textarea><br><br>
+
+ <button type="submit">Send</button>
+</form>
+
+<p id="response"></p>
 
 
-
+<script src = "slideshow.js"></script>
     </body>
 </html>
